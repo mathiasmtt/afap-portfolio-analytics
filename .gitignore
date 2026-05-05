@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Entorno Virtual
+.venv/
+
+# UV (mantener uv.lock en git para reproducibilidad)
+# uv.lock
+
+# IDE
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data — mantener el CSV público de Kaggle para que Streamlit Cloud lo encuentre.
+# Si en el futuro se agregan datasets sensibles, agregar patrones específicos.
+
+# Excel temporales generados
+*.xlsx
+
+# Screenshots generados (salvo el commiteado dashboard.png)
+# docs/screenshots/*.png mantener solo los commiteados
+
+# Documentación interna
+docs/afap-context.md
+docs/email_postulacion.md
+
